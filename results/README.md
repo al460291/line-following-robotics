@@ -6,4 +6,19 @@ There is also a clear correlation between speed and the MAE meassure, if the spe
 
 Surprisingly, none of the controllers lost the line during the experiments, including the P controller. All six experimental runs recorded zero line losses, so we can conclude thatthat all controllers were capable of completing the tested scenarios without losing the target line, although their tracking accuracy differed, of course, again, the increase was not that significant, but this is also because the idea is that the car follows the red line, in these experiments at least.
 
+==================
+Aditional Experiment - 100s
+
+The controller achieved a Mean Absolute Error (MAE) of 0.2324, representing a 46.81% increase compared to its previous result at a maximum speed of 5.0 (MAE = 0.1583).
+
+Compared to the initial experiment at a maximum speed of 3.0 (MAE = 0.1266), the tracking error increased by approximately 83.57%.
+
+These findings suggest that the P controller becomes less accurate under higher-speed operating conditions, potentially because proportional control alone does not adequately compensate for rapid changes in tracking error.
+
+Interestingly, the experiment recorded zero line losses, indicating that the robot continued detecting the target line throughout the evaluated period, despite the increase in tracking error.
+
+However, the final experiment lasted 100 seconds, compared to approximately 60 seconds in the previous trials. Furthermore, lap completion was not explicitly recorded. Therefore, these results should be interpreted as comparisons of tracking accuracy over different observation periods rather than complete-lap performance.
+
+Additional experiments with PD and PID at a maximum speed of 6.0, under identical experimental conditions, would help determine whether the derivative and integral components improve tracking accuracy at higher speeds.
+
 
