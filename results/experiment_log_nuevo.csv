@@ -1,0 +1,4 @@
+trial_date,controller,kp,ki,kd,forward_speed,track_progress_percent,run_time_seconds,line_lost_count,observations
+2026-11-16T18:22:25.866996+01:00,P,1.5,0,0,7,,100.01,0,MAE=0.3348; velocidad_media_ordenada=5.996
+2026-11-16T18:25:10.243304+01:00,PD,1.5,0,0.08,7,,100.05,0,MAE=0.2836; velocidad_media_ordenada=6.149
+2026-11-16T18:27:20.280542+01:00,PID,1.5,0.03,0.08,7,,100.04,0,MAE=0.2463; velocidad_media_ordenada=6.261
