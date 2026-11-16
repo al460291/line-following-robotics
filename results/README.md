@@ -15,10 +15,7 @@ Compared to the initial experiment at a maximum speed of 3.0 (MAE = 0.1266), the
 
 These findings suggest that the P controller becomes less accurate under higher-speed operating conditions, potentially because proportional control alone does not adequately compensate for rapid changes in tracking error.
 
-Interestingly, the experiment recorded zero line losses, indicating that the robot continued detecting the target line throughout the evaluated period, despite the increase in tracking error.
+Once again the zero lines didn't appear, which is good, I did an experiment with 7 and it did went out of the lines so the max speed should be between 6-6.5 to mantain estability.
 
-However, the final experiment lasted 100 seconds, compared to approximately 60 seconds in the previous trials. Furthermore, lap completion was not explicitly recorded. Therefore, these results should be interpreted as comparisons of tracking accuracy over different observation periods rather than complete-lap performance.
-
-Additional experiments with PD and PID at a maximum speed of 6.0, under identical experimental conditions, would help determine whether the derivative and integral components improve tracking accuracy at higher speeds.
 
 
