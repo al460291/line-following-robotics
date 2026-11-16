@@ -17,5 +17,7 @@ These findings suggest that the P controller becomes less accurate under higher-
 
 Once again the zero lines didn't appear, which is good, I did an experiment with 7 and it did went out of the lines so the max speed should be between 6-6.5 to mantain estability.
 
+I will try the max speed 7 in the second experiment in README2.md
+
 
 
