@@ -5,3 +5,4 @@ trial_date,controller,kp,ki,kd,forward_speed,track_progress_percent,run_time_sec
 2026-11-12T15:36:51+00:00,PID,1.5,0.03,0.08,5.0,,60.01,0,MAE=0.1383; velocidad_media_ordenada=4.585
 2026-11-12T15:38:18+00:00,PD,1.5,0,0.08,5.0,,60.01,0,MAE=0.1556; velocidad_media_ordenada=4.533
 2026-11-12T15:39:44+00:00,P,1.5,0,0,5.0,,60.02,0,MAE=0.1583; velocidad_media_ordenada=4.525
+2026-11-16T13:41:23+00:00,P,1.5,0,0,6.0,,100.0,0,MAE=0.2324; velocidad_media_ordenada=5.303
